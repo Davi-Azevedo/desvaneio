@@ -25,8 +25,7 @@ def egrau():
         else:
             print('n possui raiz')
 
-def soma(a, b):
-    return (a+b)
+
 
 def test():
    

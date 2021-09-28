@@ -1,3 +1,5 @@
+import matplotlib.pyplot as plt
+from statistics import *
 def pitagoras():
     a= int(input('cateto:'))
     b=int(input('cateto:'))
@@ -25,6 +27,21 @@ def egrau():
 
 def soma(a, b):
     return (a+b)
-a=5
-b=5
-egrau()
+
+def test():
+   
+   return mean([1,2,3])
+
+def grafic():
+    x=[1,2,3,4,5]
+    y=[1,2,3,3,7]
+    titulo='grafico teste'
+
+    plt.title(titulo)
+    plt.xlabel('eixo x')
+    plt.ylabel('eixo y')
+
+    plt.bar(x,y)
+    plt.show()
+
+   
